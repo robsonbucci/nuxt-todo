@@ -1,68 +1,57 @@
-# front-end
+# Projeto TO-DO front-end
 
-## Build Setup
+![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Nuxt](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
+![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)
+![AdonisJS](https://img.shields.io/badge/adonisjs-%23220052.svg?style=for-the-badge&logo=adonisjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Status](https://img.shields.io/badge/Status-in_development-orange?style=for-the-badge)
 
-```bash
-# install dependencies
-$ yarn install
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Robosn%20Messias-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robson-messias/)
+[![GitHub](https://img.shields.io/badge/GitHub-RobsonBucci-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/robsonbucci)
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Introdução
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+Este projeto é uma aplicação de lista de tarefas (TO-DO) desenvolvida utilizando Vue.js, Nuxt, TypeScript, Vuetify e Adonis.<br/>
+O objetivo é fornecer uma ferramenta eficiente para gerenciar tarefas e projetos, oferecendo uma interface amigável para criar, editar e rastrear tarefas.
 
-# generate static project
-$ yarn generate
-```
+## Funcionalidades do Projeto
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### Gerenciamento de Tarefas
 
-## Special Directories
+- **Criação de Tarefas**: Os usuários podem criar novas tarefas com um título e uma descrição livre. Cada tarefa pode ser marcada como concluída ou reaberta.
+- **Edição de Tarefas**: As tarefas podem ser editadas usando um ícone de lápis, permitindo que os usuários modifiquem o título e a descrição.
+- **Exclusão de Tarefas**: Os usuários podem excluir tarefas se elas não forem mais necessárias.
+- **Status das Tarefas**: As tarefas são exibidas com seu status (concluída ou não concluída) e podem ser filtradas com base em seu status.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+### Gerenciamento de Projetos
 
-### `assets`
+- **Criação de Projetos**: Os usuários podem criar novos projetos fornecendo um nome e um subtítulo para o projeto.
+- **Listagem de Projetos**: Todos os projetos são listados no dashboard, onde os usuários podem visualizar e gerenciar seus projetos.
+- **Filtragem de Projetos**: Os usuários podem filtrar projetos com base em seus títulos, facilitando a localização de projetos específicos.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+### Anexos e Progresso
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+- **Anexos**: Os usuários podem anexar arquivos aos seus projetos, que são exibidos nos detalhes do projeto.
+- **Progresso**: A aplicação rastreia o progresso das tarefas dentro de cada projeto, mostrando o número de tarefas concluídas e pendentes.
 
-### `components`
+### Linha do Tempo
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+- **Data de Criação**: A aplicação exibe a data de criação de cada tarefa.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+### Menu de Ações
 
-### `layouts`
+- **Exclusão ou Edição de Projetos**: Os usuários podem excluir ou editar projetos usando um menu de ações.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+### Alteração de Tema
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+- **Tema Dark e Light**: Os usuários podem alternar entre temas dark e light, e a escolha é salva no navegador.
 
-### `pages`
+## Detalhes Técnicos
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+- **Tecnologias Utilizadas**: Vue.js, Nuxt, TypeScript, Vuetify e Adonis.
+- **Integração**: As tecnologias são integradas para fornecer uma experiência de usuário eficiente, permitindo que os usuários gerenciem tarefas e projetos de forma intuitiva.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+## Conclusão
 
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+Este projeto TO-DO é uma ferramenta poderosa para gerenciar tarefas e projetos, oferecendo uma interface amigável e funcionalidades robustas. Com a capacidade de criar, editar e rastrear tarefas, anexar arquivos, visualizar progresso e alternar entre temas, este projeto é ideal para qualquer pessoa que precise de uma ferramenta eficiente para gerenciar suas tarefas diárias.
